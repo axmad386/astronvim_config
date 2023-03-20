@@ -4,7 +4,6 @@ return {
     ["<A-k>"] = { ":m .-2<CR>==", desc = "move line down" },
     ["<C-'>"] = false,
     ["<C-t>"] = { "<cmd>ToggleTerm<cr>", desc = "Toggle terminal" },
-    ["<C-->"] = { "<cmd>ToggleTermToggleAll<cr>", desc = "Toggle all terminal" },
   },
   i = {
     ["<A-j>"] = { "<Esc>:m .+1<CR>==gi", desc = "move line up" },
@@ -18,7 +17,5 @@ return {
     ["<Esc>"] = { "<C-\\><C-n>", desc = "back to normal mode on terminal" },
     ["<C-l>"] = false,
     ["<C-'>"] = false,
-    ["<C-->"] = { "<cmd>ToggleTermToggleAll<cr>", desc = "Toggle all terminal" },
   }
-
 }

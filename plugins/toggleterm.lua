@@ -1,4 +1,8 @@
 return {
-  open_mapping = [[<C-t>]],
-  direction = "horizontal"
+  'akinsho/toggleterm.nvim',
+  version = "*",
+  opts = {
+    open_mapping = [[<C-t>]],
+    direction = "horizontal"
+  }
 }
