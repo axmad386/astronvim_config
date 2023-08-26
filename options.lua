@@ -7,7 +7,8 @@ return {
         -- signcolumn = "auto", -- sets vim.opt.signcolumn to auto
         -- wrap = false, -- sets vim.opt.wrap
         autoindent = true,
-        termguicolors = true
+        termguicolors = true,
+        background = "dark"
     },
     g = {
         mapleader = " ", -- sets vim.g.mapleader
